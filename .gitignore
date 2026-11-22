@@ -1,0 +1,6 @@
+node_modules/
+.env
+frontend/app/node_modules/
+frontend/app/build/
+
+**/.env

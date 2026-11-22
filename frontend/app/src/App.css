@@ -1,0 +1,94 @@
+
+/* Main App */
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #f4f6fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Heading */
+h1 {
+  color: #243b55;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Container */
+.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+/* Search Box */
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/* Table */
+.table {
+  background-color: white;
+  margin-top: 15px;
+  vertical-align: middle;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.table thead th {
+  background-color: #243b55;
+  color: white;
+  text-align: center;
+  padding: 14px;
+}
+
+.table tbody td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Table Hover */
+.table tbody tr:hover {
+  background-color: #eef3ff;
+}
+
+/* Form */
+form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+form label {
+  font-weight: bold;
+  color: #243b55;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .btn {
+    padding: 7px 10px;
+    margin-bottom: 5px;
+  }
+
+  .table {
+    font-size: 13px;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
